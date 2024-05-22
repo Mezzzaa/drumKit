@@ -1,0 +1,138 @@
+body {
+  width: 100%;
+  text-align: center;
+  background-image: url("images/background-image.jpeg");
+  margin: 0;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+  margin: 0px;
+
+}
+
+footer {
+  color: white;
+  font-family: sans-serif;
+  text-align: center;
+  text-shadow: 3px 0 black;
+  font-size: 20px;
+}
+
+.w {
+  background-image: url("images/crash.jpeg");
+}
+
+.a {
+  background-image: url("images/kick.jpeg");
+  background-size: 100% 100%;
+}
+
+.s {
+  background-image: url("images/snare.jpeg");
+  background-size: 100% 100%;
+}
+
+.d {
+  background-image: url("images/tom1.PNG");
+  background-size: 100% 95%;
+}
+
+.j {
+  background-image: url("images/tom2.png");
+  background-size: 100% 95%;}
+
+.k {
+  background-image: url("images/tom3.png");
+  background-size: 100% 95%;
+}
+
+.l {
+  background-image: url("images/tom4.png");
+  background-size: 100% 95%;
+}
+
+.set {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  height: 100%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 5px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2;
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+@media (min-width: 640px) and (max-width:1020px) {
+
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .set{
+    row-gap: 2px;
+  }
+
+  .drum{
+    height: 180px;
+  }
+
+  footer {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    /* height: 100%; */
+    margin: 0px;
+  }
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .set{
+    row-gap: 2px;
+  }
+
+  .drum{
+    width: 120px;
+    height: 120px;
+    font-size: 2rem;
+  }
+}
+
+
