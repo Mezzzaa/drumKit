@@ -7,11 +7,10 @@ body {
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #b68b3c;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #DA0463;
+  text-shadow: 3px 0 #5a3b19;
   margin: 0px;
-
 }
 
 footer {
@@ -85,8 +84,8 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #DA0463;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #b68b3c;
+  text-shadow: 3px 0 #4a4a4a;
   border-radius: 15px;
   display: inline-block;
   width: 200px;
@@ -117,7 +116,6 @@ footer {
 
 @media (max-width: 600px) {
   body {
-    /* height: 100%; */
     margin: 0px;
   }
   h1 {
@@ -134,5 +132,3 @@ footer {
     font-size: 2rem;
   }
 }
-
-
